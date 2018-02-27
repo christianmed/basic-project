@@ -1,0 +1,17 @@
+{
+  "name": "basic-project",
+  "version": "1.0.0",
+  "description": "Estructura de carpetas y archivos para iniciar un proyecto basico con gulp, pug, sass y browser-sync",
+  "main": "index.js",
+  "author": "Christian Medina",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0"
+  }
+}

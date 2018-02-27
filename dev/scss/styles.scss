@@ -1,0 +1,13 @@
+// Config
+@import './config/vars.scss';
+@import './config/functions.scss';
+@import './config/mixins.scss';
+
+// Reset
+@import './base/reset.scss';
+
+// Header
+@import './components/header.scss';
+
+// Footer
+@import './components/footer.scss';
