@@ -31,7 +31,7 @@ gulp.task('sass', () => {
     .pipe(postcss(postCCSPlugins))
     .pipe(plumber.stop())
     .pipe(gulp.dest('./public/css'))
-    .pipe(server.stream({ match: '**/*.css' }));
+    .pipe(server.reload({ stream: true }));
 });
 
 gulp.task('default', ['pug', 'sass'], () => {
